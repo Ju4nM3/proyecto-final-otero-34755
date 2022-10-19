@@ -1,0 +1,48 @@
+* li{
+  list-style: none;
+}
+.list-group .list-group-item{
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  border: none;
+}
+
+.cardProduct {
+  width: 18rem;
+  margin: 4px;
+}
+
+.nav-link{
+  border-right: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo-span-4 {
+  transform: rotate(45deg);
+}
+
+.slogan {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dropdown-menu{
+  width: 65%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+}
