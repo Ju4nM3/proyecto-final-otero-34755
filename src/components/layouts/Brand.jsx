@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import {Link} from 'react-router-dom'
 
 const Brand = () => {
@@ -9,10 +9,9 @@ const Brand = () => {
           <p className='logo text-light'>Ju<span className='logo-span-4 text-danger'>4</span>nM<span className='logo-span-3 text-danger'>3</span></p>
           <p className='slogan text-danger'>Gamers never quit a game</p>
         </div>
-        
       </Link>
     </>
   );
 }
 
-export default Brand;
+export default memo (Brand);

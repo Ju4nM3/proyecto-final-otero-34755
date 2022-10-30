@@ -1,9 +1,11 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import DropdownCategory from './DropdownCategory';
 
 const Dropdown = () => {
   return (
     <>
-      <a className="nav-link dropdown-toggle border-0 text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorías</a>
+      <Link className="nav-link dropdown-toggle border-0 text-white" data-bs-toggle="dropdown" to="#" role="button" aria-haspopup="true" aria-expanded="false">Categorías</Link>
       <div className="dropdown-menu position-absolute start-50 translate-middle-x">
         <div className="px-md-4">
           <div className="container d-flex">

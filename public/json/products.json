@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "categoryId": 4,
-    "categoryName": "Notebooks",
+    "categoryId": "notebooks",
     "product": "Notebook Asus Zephyrus Ryzen 9-4900HS 16Gb Ssd 1Tb RTX2060 6Gb 14' Win10",
     "model": "ROG Zephyrus G14 GA401Q",
     "firstFeature": "Procesador: AMD Ryzen 9 4900HS(8 núcleos/16 subprocesos, caché de 12MB, max boost 4,3GHz)",
@@ -15,13 +14,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",      
-    "value": "409.000",
-    "img": "notebook-asus.jpeg"
+    "value": 409000,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fnotebook-asus.jpeg?alt=media&token=506e4f6f-ce90-4d76-a10e-09945e43d4fa",
+    "stock": "20"
   },
   {
     "id": 2,
-    "categoryId": 4,
-    "categoryName": "Notebooks",
+    "categoryId": "notebooks",
     "product": "Notebook Gamer Gigabyte Aorus i7 32Gb Ssd 512Gb RTX 3080Q 8Gb 17.3' Win10",
     "model": "17G",
     "firstFeature": "Procesador: 11th Gen Intel Core I7-11800H(2.3GHz~4.6GHz)",
@@ -34,13 +33,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",         
-    "value": "579.999",
-    "img": "notebook-aorus.jpeg"
+    "value": 579999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fnotebook-aorus.jpeg?alt=media&token=376435c9-1492-4bb9-ae6a-6c58314ddaef",
+    "stock": "20"
   },
   {
     "id": 3,
-    "categoryId": 4,
-    "categoryName": "Notebooks",
+    "categoryId": "notebooks",
     "product": "Notebook ASUS Gamer Rog Zephyrus Ryzen7 16Gb Ssd 512Gb RTX3050 4Gb 14' Win10",
     "model": "Zephyrus G14 GA401Q",
     "firstFeature": "Procesador: AMD Ryzen 7 5800HS(8 núcleos/16 subprocesos, caché de 20MB, max boost 4,4GHz)",
@@ -53,13 +52,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",         
-    "value": "456.279",
-    "img": "notebook-asus.jpeg"
+    "value": 456279,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fnotebook-asus.jpeg?alt=media&token=506e4f6f-ce90-4d76-a10e-09945e43d4fa",
+    "stock": "20"
   },
   {
     "id": 4,
-    "categoryId": 4,
-    "categoryName": "Notebooks",
+    "categoryId": "notebooks",
     "product": "Notebook Gamer Msi Bravo R7 5800H 16Gb Ssd 512Gb RX5500M 4Gb 15.6' Win11",
     "model": "BRAVO 15",
     "firstFeature": "Procesador: AMD Ryzen 7 5800H(8 núcleos/16 subprocesos, caché de 16MB, max boost 4,4GHz)",
@@ -72,13 +71,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",         
-    "value": "456.279",
-    "img": "notebook-msi.jpeg"
+    "value": 456279,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fnotebook-msi.jpeg?alt=media&token=d2f47ec3-605b-4b25-9e1b-6f83df2ca22a",
+    "stock": "20"
   },
   {
     "id": 5,
-    "categoryId": 4,
-    "categoryName": "Notebooks",
+    "categoryId": "notebooks",
     "product": "Notebook Gamer Gigabyte Aorus i7 32Gb Ssd 1Tb RTX 3080Q 8Gb 15.6' Win10",
     "model": "BRAVO 15",
     "firstFeature": "Procesador: 11th Gen Intel Core I7-11800H(2.3GHz~4.6GHz)",
@@ -91,13 +90,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",         
-    "value": "559.999",
-    "img": "notebook-aorus.jpeg"
+    "value": 559999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fnotebook-aorus.jpeg?alt=media&token=376435c9-1492-4bb9-ae6a-6c58314ddaef",
+    "stock": "20"
   },
   {
     "id": 6,
-    "categoryId": 6,
-    "categoryName": "Motherboards",
+    "categoryId": "motherboards",
     "product": "Motherboard 1700 12°Gen - Gigabyte GA-Z690 AORUS PRO DDR4",
     "model": "Modelo: Z690 AORUS PRO DDR4",
     "firstFeature": "Socket: LGA1700", 
@@ -110,13 +109,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",         
-    "value": "86.999",
-    "img": "mother-intel.jpeg"
+    "value": 86999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmother-intel.jpeg?alt=media&token=f5f00373-c4a2-43b2-aa5a-0f8ac0511615",
+    "stock": "20"
   },
   {
     "id": 7,
-    "categoryId": 6,
-    "categoryName": "Motherboards",
+    "categoryId": "motherboards",
     "product": "Motherboard AM4 - Gigabyte GA-X570S AORUS ELITE",
     "model": "X570S AORUS ELITE",
     "firstFeature": "Socket: AM4", 
@@ -129,13 +128,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "84.999",
-    "img": "mother-amd.jpeg"
+    "value": 84999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmother-amd.jpeg?alt=media&token=0c20c76d-870b-4dac-bc53-00c45fd650f5",
+    "stock": "20"
   },
   {
     "id": 8,
-    "categoryId": 6,
-    "categoryName": "Motherboards",
+    "categoryId": "motherboards",
     "product": "Motherboard 1700 12°Gen - Gigabyte GA-Z690 AERO G DDR5",
     "model": "Z690 AERO G",
     "firstFeature": "Socket: LGA1700", 
@@ -148,13 +147,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "78.759",
-    "img": "mother-aero.jpeg"
+    "value": 78759,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmother-aero.jpeg?alt=media&token=d23e0af0-fd25-40bb-8ed0-0af1736cb643",
+    "stock": "20"
   },
   {
     "id": 9,
-    "categoryId": 6,
-    "categoryName": "Motherboards",
+    "categoryId": "motherboards",
     "product": "Motherboard 1700 12°Gen - Msi Z690 Tomahawk WIFI DDR4",
     "model": "MAG Z690 TOMAHAWK WIFI DDR4",
     "firstFeature": "Socket: LGA1700", 
@@ -167,13 +166,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "67.999",
-    "img": "mother-tomahawk.jpeg"
+    "value": 67999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmother-tomahawk.jpeg?alt=media&token=fb663c85-c258-492d-9c1d-63bdb6270699",
+    "stock": "20"
   },
   {
     "id": 10,
-    "categoryId": 6,
-    "categoryName": "Motherboards",
+    "categoryId": "motherboards",
     "product": "Motherboard AM4 - Asus Rog B550-A GAMING",
     "model": "ROG STRIX B550-A GAMING",
     "firstFeature": "Socket: AM4", 
@@ -186,13 +185,13 @@
     "eigthFeature": "",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "59.999",
-    "img": "mother-amd.jpeg"
+    "value": 59999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmother-amd.jpeg?alt=media&token=0c20c76d-870b-4dac-bc53-00c45fd650f5",
+    "stock": "20"
   },
   {
     "id": 11,
-    "categoryId": 8,
-    "categoryName": "Placas de Video",
+    "categoryId": "graphics",
     "product": "Placa De Video GeForce RTX 3090 24Gb Asus Rog Strix Gaming Oc Blanco",
     "model": "ROG STRIX GeForce RTX 3090 White Edition",
     "firstFeature": "Chipset: NVIDIA GeForce RTX 3090", 
@@ -205,13 +204,13 @@
     "eigthFeature": "Fuente optima: 850w",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "499.999",
-    "img": "video-nvidia.jpeg"
+    "value": 499999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fvideo-nvidia.jpeg?alt=media&token=41039d86-94f1-4d04-bb12-6daddfd9c8b9",
+    "stock": "20"
   },
   {
     "id": 12,
-    "categoryId": 8,
-    "categoryName": "Placas de Video",
+    "categoryId": "graphics",
     "product": "Placa De Video Radeon RX 6900 XT 16Gb Asus Rog LC Gaming",
     "model": "ROG Strix LC Radeon RX 6900 XT",
     "firstFeature": "Chipset: AMD Radeon RX 6900 XT", 
@@ -224,13 +223,13 @@
     "eigthFeature": "Fuente optima: 850w",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "348.999",
-    "img": "video-radeon-6900.jpeg"
+    "value": 348999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fvideo-radeon-6900.jpeg?alt=media&token=8c1e8415-0f3b-4a00-9543-c3fa995485b2",
+    "stock": "20"
   },
   {
     "id": 13,
-    "categoryId": 8,
-    "categoryName": "Placas de Video",
+    "categoryId": "graphics",
     "product": "Kit GeForce RTX 3090 24Gb + Fuente 850 W 80 Plus #",
     "model": "GeForce RTX 3090 Phantom+",
     "firstFeature": "Chipset: GeForce RTX 3090", 
@@ -243,13 +242,13 @@
     "eigthFeature": "Fuente optima: 850w",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "335.388",
-    "img": "video-phantom.jpeg"
+    "value": 335388,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fvideo-phantom.jpeg?alt=media&token=eda71288-5d1b-4388-bf4e-f50dfe84e78e",
+    "stock": "20"
   },
   {
     "id": 14,
-    "categoryId": 8,
-    "categoryName": "Placas de Video",
+    "categoryId": "graphics",
     "product": "Placa De Video LHR Geforce RTX 3070 8Gb Gigabyte Aorus",
     "model": "AORUS GeForce RTX 3070 Master",
     "firstFeature": "Chipset: NVIDIA GeForce RTX 3070", 
@@ -262,13 +261,13 @@
     "eigthFeature": "Fuente optima: 650w",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "194.199",
-    "img": "video-aorus.jpeg"
+    "value": 194199,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fvideo-aorus.jpeg?alt=media&token=ccc7cf05-ef8a-43c5-b792-785668c25b4f",
+    "stock": "20"
   },
   {
     "id": 15,
-    "categoryId": 8,
-    "categoryName": "Placas de Video",
+    "categoryId": "graphics",
     "product": "Placa De Video Radeon RX 6800 XT 16Gb Gigabyte Gaming OC",
     "model": "Radeon RX 6800 XT GAMING OC 16G",
     "firstFeature": "Chipset: Radeon RX 6800 XT", 
@@ -281,13 +280,13 @@
     "eigthFeature": "Fuente optima: 750w",     
     "ninethFeature": "",     
     "tenthFeature": "",  
-    "value": "183.839",
-    "img": "video-radeon-6800.jpeg"
+    "value": 183839,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fvideo-radeon-6800.jpeg?alt=media&token=9e7313c7-e5bd-45b9-898d-5b335049b03f",
+    "stock": "20"
   },
   {
     "id": 16,
-    "categoryId": 5,
-    "categoryName": "Procesadores",
+    "categoryId": "processors",
     "product": "Procesador Intel Core i9 12900K 5.2 Ghz Alder Lake 1700 Sin Cooler",
     "model": "i9-12900K",
     "firstFeature": "Caché: 30 MB", 
@@ -300,13 +299,13 @@
     "eigthFeature": "Frecuencia máxima de reloj: 5.2 GHz",     
     "ninethFeature": "Desbloqueado para OC: Si",     
     "tenthFeature": "",  
-    "value": "162.199",
-    "img": "procesador-i9.jpeg"
+    "value": 162199,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fprocesador-i9.jpeg?alt=media&token=03af2f5a-6deb-4dc4-be1f-06d324484114",
+    "stock": "20"
   },
   {
     "id": 17,
-    "categoryId": 5,
-    "categoryName": "Procesadores",
+    "categoryId": "processors",
     "product": "Procesador Amd Ryzen 9 5950X 4.9 Ghz - AM4 Sin Cooler Sin Gpu",
     "model": "5950X",
     "firstFeature": "Caché: 64 MB", 
@@ -319,13 +318,13 @@
     "eigthFeature": "Frecuencia máxima de reloj: 4.9 GHz",     
     "ninethFeature": "Desbloqueado para OC: Si",     
     "tenthFeature": "",  
-    "value": "143.919",
-    "img": "procesador-ryzen9.jpeg"
+    "value": 143919,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fprocesador-ryzen9.jpeg?alt=media&token=48d0b147-5906-4853-bbcd-2f151067e1a4",
+    "stock": "20"
   },
   {
     "id": 18,
-    "categoryId": 5,
-    "categoryName": "Procesadores",
+    "categoryId": "processors",
     "product": "Procesador Amd Ryzen 9 7900X 5.6 Ghz - AM5 Sin Cooler",
     "model": "7900X",
     "firstFeature": "Caché: 64 MB", 
@@ -338,13 +337,13 @@
     "eigthFeature": "Frecuencia máxima de reloj: 5.6 GHz",     
     "ninethFeature": "Desbloqueado para OC: Si",     
     "tenthFeature": "",  
-    "value": "137.549",
-    "img": "procesador-ryzen9.jpeg"
+    "value": 137549,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fprocesador-ryzen9.jpeg?alt=media&token=48d0b147-5906-4853-bbcd-2f151067e1a4",
+    "stock": "20"
   },
   {
     "id": 19,
-    "categoryId": 5,
-    "categoryName": "Procesadores",
+    "categoryId": "processors",
     "product": "Procesador Amd Ryzen 7 7700X 5.4 Ghz - AM5 Sin Cooler",
     "model": "7700X",
     "firstFeature": "Caché: 32 MB", 
@@ -357,13 +356,13 @@
     "eigthFeature": "Frecuencia máxima de reloj: 5.4 GHz",     
     "ninethFeature": "Desbloqueado para OC: Si",     
     "tenthFeature": "",  
-    "value": "99.359",
-    "img": "procesador-ryzen7.jpeg"
+    "value": 99359,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fprocesador-ryzen7.jpeg?alt=media&token=503297e7-dd79-464f-b3ba-dddeb9929f56",
+    "stock": "20"
   },
   {
     "id": 20,
-    "categoryId": 5,
-    "categoryName": "Procesadores",
+    "categoryId": "processors",
     "product": "Procesador Intel Core i7 11700F 5.0 Ghz Rocket Lake 1200 Sin Gpu",
     "model": "i7-11700F",
     "firstFeature": "Caché: 16 MB", 
@@ -376,13 +375,13 @@
     "eigthFeature": "Frecuencia máxima de reloj: 4.9 GHz",     
     "ninethFeature": "Desbloqueado para OC: Si",     
     "tenthFeature": "",  
-    "value": "78.889",
-    "img": "procesador-i7.jpeg"
+    "value": 78889,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fprocesador-i7.jpeg?alt=media&token=097bf327-bc74-40c5-a7be-84d09ceccc6b",
+    "stock": "20"
   },
   {
     "id": 21,
-    "categoryId": 16,
-    "categoryName": "Monitores",
+    "categoryId": "screens",
     "product": "Monitor Gamer 27' Asus Tuf Gaming Ips 280Hz 1Ms VG279QM-J",
     "model": "TUF GAMING VG279QM",
     "firstFeature": "Color: Negro", 
@@ -395,13 +394,13 @@
     "eigthFeature": "Tiempo de respuesta (ms): 1 ms",     
     "ninethFeature": "Conectividad: 1 x Display Port, 2 x HDMI, 1 x miniplug",     
     "tenthFeature": "",  
-    "value": "119.699",
-    "img": "monitor-Asus280.jpeg"
+    "value": 119699,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmonitor-Asus280.jpeg?alt=media&token=390c5d2d-9e25-4ada-a776-6219c719bf7d",
+    "stock": "20"
   },
   {
     "id": 22,
-    "categoryId": 16,
-    "categoryName": "Monitores",
+    "categoryId": "screens",
     "product": "Monitor Gamer 24.5' Benq Hd 240Hz Zowie XL2546K",
     "model": "XL2546K",
     "firstFeature": "Color: Negro", 
@@ -414,13 +413,13 @@
     "eigthFeature": "Tiempo de respuesta (ms): 0.5 ms",     
     "ninethFeature": "Conectividad: 1 x Display Port, 3 x HDMI, 1 x miniplug",     
     "tenthFeature": "",  
-    "value": "158.259",
-    "img": "monitor-zowie.jpeg"
+    "value": 158259,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmonitor-zowie.jpeg?alt=media&token=b0a8f8a1-2bbe-47f0-b663-bd43347cfa1b",
+    "stock": "20"
   },
   {
     "id": 23,
-    "categoryId": 16,
-    "categoryName": "Monitores",
+    "categoryId": "screens",
     "product": "Monitor Gamer 24' Viewsonic Full Hd 240Hz 1Ms XG2431",
     "model": "XG2431",
     "firstFeature": "Color: Negro", 
@@ -433,13 +432,13 @@
     "eigthFeature": "Tiempo de respuesta (ms): 1 ms",     
     "ninethFeature": "Conectividad: 1 x Display Port, 2 x HDMI, 2 x USB-A, 1 x USB-B1 x miniplug",     
     "tenthFeature": "",  
-    "value": "117.789",
-    "img": "monitor-Omni240.jpeg"
+    "value": 117789,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmonitor-Omni240.jpeg?alt=media&token=c821e65e-149a-47d6-a24a-823048e32ba5",
+    "stock": "20"
   },
   {
     "id": 24,
-    "categoryId": 16,
-    "categoryName": "Monitores",
+    "categoryId": "screens",
     "product": "Monitor Gamer 32' Viewsonic Curvo 144hz 2K VX3268-2KPC",
     "model": "VX3268-2KPC-MHD",
     "firstFeature": "Color: Negro", 
@@ -452,13 +451,13 @@
     "eigthFeature": "Tiempo de respuesta (ms): 1 ms",     
     "ninethFeature": "Conectividad: 2 HDMI, 1 DisplayPort, Salida de audio de 3,5mm",     
     "tenthFeature": "",  
-    "value": "119.699",
-    "img": "monitor-Viewsonic144.jpeg"
+    "value": 119699,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmonitor-Viewsonic144.jpeg?alt=media&token=aa709973-d9e7-4c8e-aa99-1eaf0c038049",
+    "stock": "20"
   },
   {
     "id": 25,
-    "categoryId": 16,
-    "categoryName": "Monitores",
+    "categoryId": "screens",
     "product": "Monitor Gamer 49' Viotek UltraWide Curvo HDR 144Hz 1Ms SUW49CB",
     "model": "SUW49CB",
     "firstFeature": "Color: Negro", 
@@ -471,7 +470,8 @@
     "eigthFeature": "Tiempo de respuesta (ms): 4 ms",     
     "ninethFeature": "Conectividad: 1 x Display Port, 1 x DVI, 3 x HDMI, 1 x miniplug",     
     "tenthFeature": "",  
-    "value": "249.999",
-    "img": "monitor-Viotek144.jpeg"
+    "value": 249999,
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-otero.appspot.com/o/Img-Products%2Fmonitor-Viotek144.jpeg?alt=media&token=1302e9e3-93f0-4e90-9e44-b1571569383e",
+    "stock": "20"
   }
 ]

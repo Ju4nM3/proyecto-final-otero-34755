@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import {Link} from 'react-router-dom'
 import Dropdown from './Dropdown';
 
@@ -17,4 +18,4 @@ const Sections = () => {
   );
 }
 
-export default Sections;
+export default memo (Sections);
