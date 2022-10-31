@@ -1,6 +1,7 @@
 * li{
   list-style: none;
 }
+
 .list-group .list-group-item{
   border: none;
   border-radius: 0;
@@ -45,4 +46,16 @@ a{
 
 a:hover{
   cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.footer, ul, li {
+  font-size: 0.9rem;
+}
+
+.copyright {
+  background-color: #222;
 }

@@ -7,6 +7,7 @@ import About from './components/content/About'
 import Contact from './components/content/Contact'
 import Footer from './components/content/Footer';
 import CartContainer from './components/content/Cart/CartContainer';
+import Checkout from './components/content/Checkout';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/category/:categoryId" element={<ItemListContainer/>} />
           <Route path="/product/:id" element={<ItemDetailContainer/>} />
           <Route path="/cart" element={<CartContainer/>} />
+          <Route path='/checkout' element={<Checkout/>}/>
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="*" element={<h1>ERROR 404</h1>}/>

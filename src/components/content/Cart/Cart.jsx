@@ -1,5 +1,6 @@
 import React, {useContext, useState, useEffect} from 'react';
 import { cartContext } from '../../../context/CartContext';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const {cart, removeProduct, clearProducts} = useContext(cartContext)
@@ -23,7 +24,7 @@ const Cart = () => {
       <div className='container-fluid border-bottom border-bottom-1 my-1'></div>
     </div>
     )
-    setCurrentCart(cartProduct)    
+    setCurrentCart(cartProduct)
   }, [cart, removeProduct]);
 
   return (
@@ -36,7 +37,7 @@ const Cart = () => {
             <p className="card-title text-black col-4">Producto</p>
             <p className="card-text text-black col-2 m-0 p-0 text-center">Precio</p>
             <p className="card-text text-black col-2 m-0 p-0 text-center">Cantidad</p>
-            <p className="card-text text-black col-2 m-0 p-0 text-center">Precio Total</p>
+            <p className="card-text text-black col-2 m-0 p-0 text-center">Subtotal</p>
             <p className="card-text text-black col-2 d-flex justify-content-center align-items-center m-0">
               <button className='bg-transparent text-black border-0 m-0' onClick={()=> clearProducts(cart)}><i className="fa-regular fa-trash-can"></i></button></p>
           </div>
@@ -46,10 +47,11 @@ const Cart = () => {
       {currentCart}
       <div className="row g-0">
         <div className="col-2 d-flex justify-content-center align-items-center"></div>
-        <div className="col-10 d-flex">
+        <div className="col-12 d-flex">
           <div className="card-body row d-flex justify-content-center align-items-center">
-            <div className="col-9"></div>
-            <div className="col-3 d-flex justify-content-center align-items-center m-0"><button className='bg-transparent text-black border-0 m-0' onClick={()=> clearProducts(cart)}>Finalizar compra</button></div>
+            <p className="col-4 card-text text-black px-5 m-0">Precio total: </p>
+            <div className="col-5"></div>
+            <div className="col-3 d-flex justify-content-center align-items-center m-0"><Link to={"/checkout"}><button className='bg-transparent text-black border-0 m-0'>Finalizar compra</button></Link></div>
           </div>
         </div>
       </div>
