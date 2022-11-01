@@ -25,7 +25,6 @@ const Cart = () => {
     </div>
     )
     setCurrentCart(cartProduct)
-
   }, [cart, removeProduct]);
 
   return (
