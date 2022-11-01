@@ -17,7 +17,7 @@ const Cart = () => {
           <p className="card-title text-black col-4">{product.product}</p>
           <p className="card-text text-black col-2 m-0 p-0 text-center">{product.value}$</p>
           <p className="card-text text-black col-2 m-0 p-0 text-center">{product.amount}</p>
-          <p className="card-text text-black col-2 m-0 p-0 text-center">{product.amount * product.value}$</p>
+          <p className="card-text text-black col-2 m-0 p-0 text-center">{(product.amount * product.value)}$</p>
           <p className="card-text text-black col-2 d-flex justify-content-center align-items-center"><button className='bg-transparent text-black border-0 m-0' onClick={()=> removeProduct(product)}>Eliminar</button></p>
         </div>
       </div>
@@ -25,6 +25,7 @@ const Cart = () => {
     </div>
     )
     setCurrentCart(cartProduct)
+
   }, [cart, removeProduct]);
 
   return (
@@ -49,8 +50,7 @@ const Cart = () => {
         <div className="col-2 d-flex justify-content-center align-items-center"></div>
         <div className="col-12 d-flex">
           <div className="card-body row d-flex justify-content-center align-items-center">
-            <p className="col-4 card-text text-black px-5 m-0">Precio total: </p>
-            <div className="col-5"></div>
+            <div className="col-9"></div>
             <div className="col-3 d-flex justify-content-center align-items-center m-0"><Link to={"/checkout"}><button className='bg-transparent text-black border-0 m-0'>Finalizar compra</button></Link></div>
           </div>
         </div>

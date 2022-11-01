@@ -28,8 +28,8 @@ const Formulario = () => {
         </div>
         <div className="form-group">
           <label htmlFor="exampleSelect1" className="form-label mt-4">País</label>
-          <select className="form-select" name="Country" required>
-            <option selected disabled>Selecciona tu país</option>
+          <select className="form-select" name="Country" defaultValue={"Seleccioná tu país"} required>
+            <option disabled>Selecciona tu país</option>
             <option>Argentina</option>
             <option>Bolivia</option>
             <option>Brasil</option>

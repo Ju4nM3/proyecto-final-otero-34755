@@ -16,6 +16,7 @@ const CartProvider = ( props ) => {
       const b = prod[1]
       const prodCart = {id, ...b, amount: quantity}
       aux.push(prodCart)
+      
     }
     setCart(structuredClone(aux))
   }

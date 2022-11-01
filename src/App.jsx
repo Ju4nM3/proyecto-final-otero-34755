@@ -7,7 +7,7 @@ import About from './components/content/About'
 import Contact from './components/content/Contact'
 import Footer from './components/content/Footer';
 import CartContainer from './components/content/Cart/CartContainer';
-import Checkout from './components/content/Checkout';
+import Checkout from './components/content/Checkout/Checkout';
 
 
 const App = () => {

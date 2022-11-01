@@ -1,21 +1,20 @@
-import React /* {useContext} */ from 'react';
-/* import { cartContext } from '../../context/CartContext'; */
+import React from 'react';
 
-
-const Checkout = () => {
-  /* const {cart, clearProducts} = useContext(cartContext) */
+const CheckoutForm = (props) => {
 
   const checkoutData = React.useRef()
   const checkoutConsult = (e) => {
-    const checkoutData2 = new FormData(checkoutData.current)
-    console.log(Object.fromEntries(checkoutData2))
+    e.preventDefault()
+  const checkoutData2 = new FormData(checkoutData.current)
+  console.log(Object.fromEntries(checkoutData2))
+  
   }
   return (
     <>
     <div className='container-fluid my-5'>
-      <div className="row">
-        <div className="col-2"></div>
-        <div className="col-8">
+    <div className="row">
+      <div className="col-2"></div>
+      <div className="col-8">
         <form onSubmit={checkoutConsult} ref={checkoutData}>
           <fieldset>
             <legend>Checkout</legend>
@@ -42,20 +41,20 @@ const Checkout = () => {
             <div className="form-check my-4" required>
               <input className="form-check-input" type="checkbox" defaultValue name="Required" />
               <label className="form-check-label" htmlFor="flexCheckDefault">
-              Acepto que la información personal contenida en este formulario será de uso exclusivo de Ju4nM3, en base a los términos señalados en la Política de Privacidad y Términos y condiciones del sitio, y será procesada por la empresa para dar respuesta a mis consultas y/o solicitudes.
+                Acepto que la información personal contenida en este formulario será de uso exclusivo de Ju4nM3, en base a los términos señalados en la Política de Privacidad y Términos y condiciones del sitio, y será procesada por la empresa para dar respuesta a mis consultas y/o solicitudes.
               </label>
             </div>
             <div className='container-fluid d-flex justify-content-center'>
-              <button type="submit" className="btn btn-success">Confirmar compra</button>
+              <button type="submit" className="btn btn-success" onClick={props.toggleValidation}>Confirmar compra</button>
             </div>
           </fieldset>
         </form>
-        </div>
-        <div className="col-2"></div>
-        </div>
       </div>
+      <div className="col-2"></div>
+     </div>
+    </div>
     </>
   );
 }
 
-export default Checkout;
+export default CheckoutForm;
